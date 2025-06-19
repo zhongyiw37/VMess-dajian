@@ -1,5 +1,5 @@
 apt update -y && apt install -y curl && apt install -y socat  #系统组件升级至最新
-wget -N --no-check-certificate https://raw.githubusercontent.com/zhongyiw37/VMess-dajian/main/hysteria.sh && bash hysteria.sh #Hysteria 2 一键安装脚本
+wget -N --no-check-certificate https://raw.githubusercontent.com/zhongyiw37/hysteria2-install/main/hysteria2-install-main/hy2/hysteria.sh && bash hysteria.sh #Hysteria 2 一键安装脚本
 systemctl status hysteria-server.service #查看 hysteria 服务 状态
 systemctl start hysteria-server.service  #启动 hysteria 服务
 systemctl enable hysteria-server.service #设置 hysteria 服务 开机自启
